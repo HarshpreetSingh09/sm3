@@ -9,9 +9,9 @@ import traceback
 import time
 import random
 
-api_id = 1181551
-api_hash = '3063d1a23cbcb56e42246512409c0484'
-phone = '13216168519'
+api_id = 2377879
+api_hash = '3edcd30de3bfc9d5fa7a968f6dd46da3'
+phone = '+13213425919'
 client = TelegramClient(phone, api_id, api_hash)
 
 SLEEP_TIME_1 = 600
