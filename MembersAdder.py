@@ -9,9 +9,9 @@ import traceback
 import time
 import random
 
-api_id = 2063544
-api_hash = 'ccfb8e7b0c2d6b50e6d4c1c79e325f3a'
-phone = '+13212916034'
+api_id = 2371348
+api_hash = 'a0833d660337f38a14a0feac2e751728'
+phone = '+13152010916'
 client = TelegramClient(phone, api_id, api_hash)
 
 SLEEP_TIME_1 = 600
@@ -23,7 +23,7 @@ if not client.is_user_authorized():
     client.sign_in(phone, input('Enter the code: '))
 
 users = []
-with open(r"/home/vermakamboj4/sm2/members.csv", encoding='UTF-8') as f:
+with open(r"/home/vermakamboj4/sm3/members.csv", encoding='UTF-8') as f:
     rows = csv.reader(f,delimiter=",",lineterminator="\n")
     next(rows, None)
     for row in rows:
